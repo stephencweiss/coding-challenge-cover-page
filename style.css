@@ -1,5 +1,5 @@
 body{
-	background-image: url(https://images.unsplash.com/photo-1532550501881-e2ce430496fa?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a62d047d046e1ea5fce6722eeda91a33&auto=format&fit=crop&w=1650&q=80);
+	background-image: url(https://images.unsplash.com/photo-1533079047304-3997643590ab?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=027b043cbdacc36c92d5a5c4de3ae8cd&auto=format&fit=crop&w=1951&q=80);
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: 'Raleway', sans-serif;
@@ -8,9 +8,11 @@ body{
 
 h1{
 	font-size: 72px;
+	color: #FFFFFF;
 }
 h2{ 
 	font-size: 28px;
+	color: #FFFFFF;
 }
 p{
 	font-size: 32px;
