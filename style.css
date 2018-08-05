@@ -2,6 +2,16 @@
 .formatting-names-problem{
 	background-image: url(https://images.unsplash.com/photo-1533206566710-748afd3abf86?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2171f3996df88c857e995be315b73e0c&auto=format&fit=crop&w=1950&q=80);
 	background-size: cover;
+	/*background-size: contain;*/
+	background-repeat: no-repeat;
+	font-family: 'Raleway', sans-serif;
+	padding: 2rem 2rem 6rem 2rem;
+	text-align: left;
+}
+
+.reverse-or-rotate-problem{
+	background-image: url(https://images.unsplash.com/photo-1533469582499-00ad94525f42?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3758a108a40c083a049e944bf513df7a&auto=format&fit=crop&w=1998&q=80);
+	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: 'Raleway', sans-serif;
 	padding: 2rem 2rem 6rem 2rem;
@@ -16,11 +26,18 @@
 	margin: 1rem 1rem 1rem 1rem;
 }
 
-.screen-text{
+.red-screen-text{
 	font-size: 130px;
 	color: red;
 	mix-blend-mode: screen;
 	opacity: .75
+}
+
+.white-text{
+	font-size: 130px;
+	color: white;
+	/*mix-blend-mode: screen;*/
+	/*opacity: .75*/
 }
 
 .jumbocustom .screen-text{
@@ -34,6 +51,15 @@
 	align-items: left;
 	text-align: left;
   	justify-content: left;
+	padding: 1rem 1rem 2rem 1rem;
+	margin: 1rem 1rem 1rem 1rem;
+}
+
+.row{
+	display: flex;
+	align-items: left;
+	text-align: left;
+  	justify-content: center;
 	padding: 1rem 1rem 2rem 1rem;
 	margin: 1rem 1rem 1rem 1rem;
 }
@@ -65,6 +91,7 @@ hr {
 
 body{
 	font-weight: bold;
+
 	
 }
 
@@ -96,3 +123,4 @@ a{
 	font-weight: bold
 	text-decoration: none;	
 }
+
