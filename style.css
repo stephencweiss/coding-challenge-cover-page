@@ -18,6 +18,15 @@
 	text-align: left;
 }
 
+.anagrams-problem{
+	background-image: url(https://images.unsplash.com/photo-1533447448066-75ac9b65b459?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f3ef24611e57a5ed32f031efa98d5ba4&auto=format&fit=crop&w=1950&q=80);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Raleway', sans-serif;
+	padding: 2rem 2rem 6rem 2rem;
+	text-align: left;
+}
+
 .header-space{
 	padding-bottom: 2rem;
 }
@@ -26,19 +35,29 @@
 	margin: 1rem 1rem 1rem 1rem;
 }
 
-.red-screen-text{
-	font-size: 130px;
+.red-text{
 	color: red;
+}
+
+.white-text{
+	color: white;
+}
+
+.anagram-text{
+	color: #403D39;
+}
+
+.screen-text{
 	mix-blend-mode: screen;
 	opacity: .75
 }
 
-.white-text{
-	font-size: 130px;
-	color: white;
+/*.white-text{*/
+	/*font-size: 130px;*/
+	
 	/*mix-blend-mode: screen;*/
 	/*opacity: .75*/
-}
+/*}*/
 
 .jumbocustom .screen-text{
 	padding: 0;
@@ -123,4 +142,3 @@ a{
 	font-weight: bold
 	text-decoration: none;	
 }
-
