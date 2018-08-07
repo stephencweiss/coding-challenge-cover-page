@@ -25,6 +25,17 @@
 	font-family: 'Raleway', sans-serif;
 	padding: 2rem 2rem 6rem 2rem;
 	text-align: left;
+	color: #403D39;
+}
+
+.tortoise-race-problem{
+	background-image: url(https://images.unsplash.com/photo-1531512073830-ba890ca4eba2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8105ed8f913b06ed6e746048568ce2dd&auto=format&fit=crop&w=2044&q=80);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Raleway', sans-serif;
+	padding: 2rem 2rem 6rem 2rem;
+	text-align: center;
+	color: #76949F;
 }
 
 .header-space{
@@ -43,8 +54,8 @@
 	color: white;
 }
 
-.anagram-text{
-	color: #403D39;
+.tortoise-header-text{
+	color: #183A37;
 }
 
 .screen-text{
@@ -142,3 +153,4 @@ a{
 	font-weight: bold
 	text-decoration: none;	
 }
+
